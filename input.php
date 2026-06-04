@@ -9,15 +9,15 @@
     <form action="confirm.php" method="post">
         <p>
             <label>お名前：</label>
-            <input type="text" name="name">
+            <input type="text" name="name" required>
         </p>
         <p>
             <label>メールアドレス：</label>
-            <input type="email" name="email">
+            <input type="email" name="email" required>
         </p>
         <P>
             <label>年齢：</label>
-            <input type="number" name="age" min="0" max="120">
+            <input type="number" name="age" min="0" max="120" required>
         </P>
         <button type="submit">確認画面へ</button>
     </form>
